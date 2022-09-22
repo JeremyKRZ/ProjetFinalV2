@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Bonus-->
+        <!--Localisation-->
         <scene sceneID="Zx6-LK-YbA">
             <objects>
                 <viewController id="mhM-t1-Moa" customClass="GeoController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,7 +26,7 @@
                         <viewLayoutGuide key="safeArea" id="x7K-Li-3Ry"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Bonus" image="plus" catalog="system" id="spr-TM-f8y"/>
+                    <tabBarItem key="tabBarItem" title="Localisation" image="location" catalog="system" selectedImage="location" id="spr-TM-f8y"/>
                     <connections>
                         <outlet property="mapView" destination="Dud-9D-2iP" id="qY4-03-7xw"/>
                     </connections>
@@ -311,11 +311,11 @@
             </objects>
             <point key="canvasLocation" x="780" y="-114.45497630331754"/>
         </scene>
-        <!--Item-->
+        <!--APIs-->
         <scene sceneID="a5d-1H-HcN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QBx-jD-9Dy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="CbY-pr-7uv"/>
+                    <tabBarItem key="tabBarItem" title="APIs" image="globe" catalog="system" selectedImage="globe" id="CbY-pr-7uv"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Fay-w3-Sfz">
                         <rect key="frame" x="0.0" y="47" width="390" height="96"/>
@@ -334,7 +334,8 @@
     <resources>
         <image name="5847f40ecef1014c0b5e488a.png" width="373" height="512"/>
         <image name="fireplace" catalog="system" width="128" height="103"/>
-        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="globe" catalog="system" width="128" height="123"/>
+        <image name="location" catalog="system" width="128" height="121"/>
         <systemColor name="separatorColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
