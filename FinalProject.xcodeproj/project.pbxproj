@@ -17,6 +17,7 @@
 		C35FDECE28DC905200484E56 /* ApiResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35FDECD28DC905200484E56 /* ApiResults.swift */; };
 		C35FDED028DC908600484E56 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35FDECF28DC908600484E56 /* ImageDownloader.swift */; };
 		C35FDED528DC951000484E56 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35FDED428DC951000484E56 /* ListCell.swift */; };
+		C3CBCACA297698AC0098E31A /* mac-min-1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCAC9297698AC0098E31A /* mac-min-1024x1024.png */; };
 		C3ED475E28DC890C00DD43BD /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED475D28DC890C00DD43BD /* ApiHelper.swift */; };
 		C3ED476028DC894100DD43BD /* GenderEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED475F28DC894100DD43BD /* GenderEnum.swift */; };
 		EC0BA2E528DC49EE003A3177 /* UserFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0BA2E428DC49EE003A3177 /* UserFirebase.swift */; };
@@ -63,6 +64,7 @@
 		C35FDECD28DC905200484E56 /* ApiResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResults.swift; sourceTree = "<group>"; };
 		C35FDECF28DC908600484E56 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		C35FDED428DC951000484E56 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		C3CBCAC9297698AC0098E31A /* mac-min-1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mac-min-1024x1024.png"; path = "../../../../../Downloads/mac-min-1024x1024.png"; sourceTree = "<group>"; };
 		C3ED475D28DC890C00DD43BD /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
 		C3ED475F28DC894100DD43BD /* GenderEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderEnum.swift; sourceTree = "<group>"; };
 		EC0BA2E428DC49EE003A3177 /* UserFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFirebase.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		C328E19A28DB06C800606A2B /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				C3CBCAC9297698AC0098E31A /* mac-min-1024x1024.png */,
 				ECD3E46328DB4CAF0072F221 /* GoogleService-Info.plist */,
 				EC0BA2E428DC49EE003A3177 /* UserFirebase.swift */,
 				C35FDED128DC94B700484E56 /* View */,
@@ -285,6 +288,7 @@
 			files = (
 				ECB0A03528DCA8360052EB66 /* 5847f40ecef1014c0b5e488a.png in Resources */,
 				C328E1A828DB06C800606A2B /* LaunchScreen.storyboard in Resources */,
+				C3CBCACA297698AC0098E31A /* mac-min-1024x1024.png in Resources */,
 				ECD3E46428DB4CAF0072F221 /* GoogleService-Info.plist in Resources */,
 				C328E1A528DB06C800606A2B /* Assets.xcassets in Resources */,
 				C328E1A328DB06C800606A2B /* Main.storyboard in Resources */,
@@ -498,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UAF5VDS42H;
@@ -526,6 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UAF5VDS42H;
